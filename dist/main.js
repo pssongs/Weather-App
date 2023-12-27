@@ -1,0 +1,1 @@
+!async function(){const a=await fetch("https://api.weatherapi.com/v1/current.json?key=03a0a509d6ee48609eb80436232612&q=YorbaLinda");console.log(a)}();
