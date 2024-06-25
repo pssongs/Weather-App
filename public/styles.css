@@ -22,10 +22,16 @@ html, body {
 }
 
 #location-info {
-  width: 350px;
+  width: 200px;
+  height: 50%;
   display: flex;
   flex-direction: column;
   align-items: center;
+  justify-content: center;
+  border: 2px solid;
+  border-radius: 10px;
+  padding: 10px;
+  gap: 5px;
 }
 
 #high-low {
@@ -38,4 +44,13 @@ html, body {
   display: flex;
   gap: 5px;
   align-items: center;
+}
+
+.current {
+  width: 100vw;
+  height: 30vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding-top: 70px;
 }
