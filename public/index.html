@@ -2,26 +2,31 @@
 <html>
   <head>
     <title>Weather</title>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta charset="UTF-8" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
     <link rel="stylesheet" href="styles.css">
+    <link
+    href="https://fonts.googleapis.com/css2?family=Antic+Slab&family=Roboto&display=swap"
+    rel="stylesheet"
+    />
   </head>
   <body>
     <header>
-      <div id="logo">KnowThe Weather?</div>
-      <div id="header-right">
-        <div id="search-bar">
-          <form class="search">
-          <label for="search">City:</label>
-          <input type="search" id="search" placeholder="Enter City Name"/>
-          <button type="submit">Search</button>
-          </form>
-        </div>
-      </div>
+      <div id="logo"><i class="fas fa-cloud-sun"></i>KnowThe Weather?</div>
     </header>
     <div class="current">
+      <div id="search-bar">
+        <form class="search">
+        <label for="search"></label>
+        <input type="search" id="search" placeholder="Enter City Name"/>
+        <button type="submit">Search</button>
+        </form>
+      </div>
       <div id="location-info">
         <div id="city">Yorba Linda</div>
-        <div id="condition">Partly Cloudy</div>
         <div id="temp">65&#176</div>
+        <div id="condition">Partly Cloudy</div>
         <div id="high-low">
           <div id="high">H: 75&#176</div>
           <div id="low">L: 55&#176</div>
